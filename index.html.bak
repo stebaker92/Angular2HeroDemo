@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <script>document.write('<base href="' + document.location + '" />');</script>
     <title>Angular 2 Tour of Heroes</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="sample.css">
-
     <!-- Polyfill(s) for older browsers -->
     <script src="https://npmcdn.com/core-js/client/shim.min.js"></script>
 
@@ -20,11 +18,11 @@
     <script>
         System.import('app').catch(function(err){ console.error(err); });
     </script>
-  </head>
+</head>
 
-  <body>
-    <my-app>Loading...</my-app>
-  </body>
+<body>
+<my-app>Loading...</my-app>
+</body>
 </html>
 
 

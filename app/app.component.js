@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var hero_service_1 = require('./hero.service');
+require('./rxjs-extensions');
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Tour of Heroes';
@@ -22,7 +23,7 @@ var AppComponent = (function () {
             styleUrls: ['app/app.component.css'],
             directives: [router_1.ROUTER_DIRECTIVES],
             providers: [
-                hero_service_1.HeroService
+                hero_service_1.HeroService,
             ]
         }), 
         __metadata('design:paramtypes', [])
